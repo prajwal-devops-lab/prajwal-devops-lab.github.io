@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banala Prajwal | Portfolio</title>
+    <style>
+        /* Modern clean developer styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        header {
+            background: #24292e;
+            color: #fff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 0.5rem 0;
+            color: #959da5;
+            font-size: 1.1rem;
+        }
+        .contact-links {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        .contact-links a {
+            color: #58a6ff;
+            text-decoration: none;
+            margin: 0 0.75rem;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        .contact-links span {
+            color: #8b949e;
+        }
+        nav {
+            background: #1f2327;
+            padding: 0.75rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #58a6ff;
+        }
+        .container {
+            max-width: 950px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        h2 {
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 0.4rem;
+            color: #24292e;
+            margin-top: 0;
+        }
+        h3 {
+            color: #0366d6;
+            margin-bottom: 0.2rem;
+        }
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            color: #586069;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+            font-style: italic;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1rem;
+        }
+        .skill-category {
+            background: #f6f8fa;
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 4px solid #0366d6;
+        }
+        .skill-category h4 {
+            margin: 0 0 0.5rem 0;
+            color: #24292e;
+        }
+        .project, .exp-item, .edu-item {
+            margin-bottom: 1.75rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        .project:last-child, .exp-item:last-child, .edu-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        ul {
+            padding-left: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        li {
+            margin-bottom: 0.4rem;
+        }
+        .badge {
+            background: #dbedff;
+            color: #0366d6;
+            padding: 0.2rem 0.6rem;
+            border-radius: 2rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 0.4rem;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+        .cert-badge {
+            background: #e1f5fe;
+            color: #0288d1;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #24292e;
+            color: #fff;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BANALA PRAJWAL</h1>
+        <p>Electrical and Electronics Engineering Student | DevOps & Web Enthusiast</p>
+        <div class="contact-links">
+            <span>📍 Hyderabad, Telangana, India</span> | 
+            <span>📞 +91 9100456103</span> | 
+            <a href="mailto:banalaprajwal@gmail.com">banalaprajwal@gmail.com</a> | 
+            <a href="https://linkedin.com/in/prajwalbanala1" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/prajwal-devops-lab" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="edu-item">
+                <h3>B.Tech in Electrical and Electronics Engineering</h3>
+                <div class="meta-info">
+                    <span>JBI Institute of Engineering and Technology</span>
+                    <span>2022 - 2026 | CGPA: 7.52</span>
+                </div>
+            </div>
+
+            <div class="edu-item">
+                <h3>Diploma in Electrical and Electronics Engineering</h3>
+                <div class="meta-info">
+                    <span>Sanjay Gandhi Government Polytechnic</span>
+                    <span>2020 - 2022 | Percentage: 74%</span>
+                </div>
+            </div>
+
+            <div class="edu-item">
+                <h3>SSC (Secondary School Certificate)</h3>
+                <div class="meta-info">
+                    <span>Excellent Star High School</span>
+                    <span>2020 | GPA: 10/10</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <p>Java, Python, JavaScript, C</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Web Technologies</h4>
+                    <p>HTML5, CSS3, Responsive Web Design, UI/UX Basics</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & Ecosystems</h4>
+                    <p>Git, GitHub, VS Code, Linux/DevOps Ecosystem</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Core Engineering Domain</h4>
+                    <p>CAD Design, 3D Printing, Substation Maintenance, Power Electronics & EV Concepts</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="exp-item">
+                <h3>Intern</h3>
+                <div class="meta-info">
+                    <span>Imyubun Substation, Hyderabad</span>
+                    <span>June 2022 - Nov 2022</span>
+                </div>
+                <ul>
+                    <li>Monitored and assisted in the preventative maintenance operations of high-voltage transformers, switchgears, and protective relays.</li>
+                    <li>Conducted routine safety inspections, logged technical parameters, and updated documentation for daily grid distribution operations.</li>
+                    <li>Collaborated with senior plant engineers to analyze and troubleshoot step-down transformer insulation testing protocols.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Technical Projects Section -->
+        <section id="projects">
+            <h2>Technical Projects</h2>
+            
+            <div class="project">
+                <h3>EV to EV Energy Transfer Conceptual Framework</h3>
+                <div class="meta-info">
+                    <span>Core Power Electronics</span>
+                    <span>Conceptual Framework</span>
+                </div>
+                <ul>
+                    <li>Designed a conceptual structural model for emergency bidirectional energy sharing between electric vehicles without external grid dependencies.</li>
+                    <li>Modeled power converter stages to manage bidirectional DC-DC voltage matching, ensuring safety configurations during charge/discharge states.</li>
+                </ul>
+                <span class="badge">Power Electronics</span>
+                <span class="badge">EV Engineering</span>
+                <span class="badge">DC-DC Converters</span>
+            </div>
+
+            <div class="project">
+                <h3>Automatic Bell Ring System</h3>
+                <div class="meta-info">
+                    <span>Embedded Automation & Control</span>
+                    <span>Hardware/Software Solution</span>
+                </div>
+                <ul>
+                    <li>Programmed and deployed an automated hardware/software bell scheduling solution designed to eliminate manual error margins.</li>
+                    <li>Formulated logic sequences to handle complex time-interval schedules with high-precision microcontrollers, enabling real-time operation stability.</li>
+                </ul>
+                <span class="badge">Automation</span>
+                <span class="badge">Microcontrollers</span>
+                <span class="badge">Embedded Systems</span>
+            </div>
+
+            <div class="project">
+                <h3>Responsive Portfolio Website</h3>
+                <div class="meta-info">
+                    <span>Web Development</span>
+                    <span><a href="https://prajwal-devops-lab.github.io" target="_blank">prajwal-devops-lab.github.io</a></span>
+                </div>
+                <ul>
+                    <li>Engineered a clean, fully responsive developer portfolio leveraging vanilla HTML5, CSS3, and JavaScript logic blocks.</li>
+                    <li>Implemented mobile-first UI paradigms, cross-browser compatibility layers, and lightweight hosting workflows using GitHub Pages.</li>
+                </ul>
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">GitHub Pages</span>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>Java Programming</strong> - Completed rigorous object-oriented programming structure foundations.</li>
+                <li><strong>Web Development</strong> - Certified in front-end design architectural best practices.</li>
+                <li><strong>CAD Design and 3D Printing</strong> - Certified proficiency in mechanical physical layer prototyping tools.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Banala Prajwal. Built and deployed via GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
